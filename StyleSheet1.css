@@ -1,0 +1,88 @@
+﻿
+#ProfilePage
+{
+    /* Move it off the top of the page, then centre it horizontally */
+    margin: 50px auto;
+    width: 635px;
+   background: url(images/1234.gif) no-repeat;
+
+/* For visibility. Delete me */
+border: 0px solid orange;
+}
+
+
+
+#LeftCol
+{
+    /* Move it to the left */
+    float: left;
+
+    width: 200px;
+   
+
+    /* Move it away from the content */
+    margin-right: 20px;
+  margin-top: 25px;
+   margin-left: 15px;
+/* For visibility. Delete me */
+border: 0px solid brown;
+}
+
+#Photo
+{margin-top: 4px;
+    /* Width and height of photo container */
+     margin-left: 3px;
+    width: 150px;
+    
+    height: 180px;
+
+/* For visibility. Delete me */
+border: 0px solid green;
+}
+
+#PhotoOptions
+{
+    text-align: center;
+    width: 200px;
+    font-size :16px;
+
+/* For visibility. Delete me */
+border: 0px solid brown;
+}
+
+#Info
+{
+	  margin-top: 15px;
+    width: 400px;
+    text-align: center;
+
+    /* Move it to the right */
+    float: right;
+
+/* For visibility. Delete me */
+border: 0px solid blue;
+}
+
+#Info strong
+{
+    /* Give it a width */
+    display: inline-block;
+    width: 100px;
+    background-color:#B89329;
+
+/* For visibility. Delete me */
+border: 0px solid orange;
+}
+
+#Info span
+{
+    /* Give it a width */
+    display: inline-block;
+    width: 250px;
+     background-color:#B89329;
+
+/* For visibility. Delete me */
+border: 0px solid purple;
+}
+
+

@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageTeacher.master.cs" Inherits="MasterPageTeacher" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cyber Tution</title>
+<meta name="keywords" content="Cyber Tution" />
+<meta name="description" content="Cyber Tution" />
+<link href="mastergeneral.css" rel="stylesheet" type="text/css" />
+ <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div id="templatemo_container">
+	<div id="templatemo_header">
+    	<div id="site_title_section">
+            <div class="cleaner">&nbsp;</div>
+        </div>
+        
+      </div> <!-- end of header -->
+    
+    <div id="templatemo_menu">
+        <ul>
+            <li><a href="TeacherHome.aspx" class="current">Home</a></li>
+          
+            <li><a href="Logout.aspx" class="last">LogOut</a></li>
+        </ul>    	
+    </div> <!-- end of menu -->
+    
+    <div id="templatemo_content">
+        
+        <div id="content_left">
+        
+         <div class="content_left_section">
+            	<div class="content_left_section_title">Personal</div>
+				<div class="content_left_section_content">
+                <div class="menu3">
+		<ul>
+			<li><a href="teacher_profile.aspx"  title="Profile">Profile</a></li>	
+			<li><a href="Contact Admin2.aspx" title="Contact Admin">Contact Admin</a></li>
+			
+			 
+		</ul>
+                    </div>
+                </div>	
+               <div class="content_left_section_title">Tution</div> 
+               
+                <div class="content_left_section_content">
+                   
+                    
+                    <div class="menu3">
+		<ul>
+			<li><a href="StudyMaterials.aspx" title="Subjects">Study Materials</a></li>
+			<li><a href="Exam.aspx" title="Examinations">Examinations</a></li>	
+			<li><a href="Questions.aspx" title="QuestionPapers">QuestionPapers</a></li>	
+						
+		
+		
+			<li><a href="tuition.aspx" title="Tution">Tution Materials</a></li>	
+		
+			
+			
+		</ul>
+                    </div>
+                </div>	
+                
+                
+                
+                <div class="cleaner">&nbsp;</div>
+            	<div class="content_left_section_bottom">&nbsp;</div>
+            </div>
+            
+            <div class="margin_bottom_20">&nbsp;</div>
+            
+            <div class="margin_bottom_20">&nbsp;</div>
+            
+        </div> <!-- end of content left -->
+        
+		<div id="content_right">
+        
+            <div class="right_col_section_w650">
+    
+             
+             <form id="form1" runat="server">
+   
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>   
+             
+             </form> 
+             
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+			<div class="margin_bottom_20">&nbsp;</div>
+            
+            <!-- end of right_col_section_w420 -->
+            -
+            <!-- end of right_col_section_w220 -->
+            
+        </div>
+        
+	</div> <!-- end of container -->
+    <div id="templatemo_content_bottom">&nbsp;</div>
+<!--  Free CSS Templates by www.TemplateMo.com  -->
+    <div id="templatemo_footer">
+	     Copyright © 2013-14,<a href="About.aspx">Group 8,CE,SSM PTC,Tirur</a>
+    </div> <!-- end of footer -->
+</div> <!-- end of container -->
+</body>
+</html>

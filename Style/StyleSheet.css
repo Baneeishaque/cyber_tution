@@ -1,0 +1,70 @@
+﻿body
+{
+	
+	font-size: 10pt;
+	color: white;
+	font-family: Tahoma, Arial;
+}
+
+.mainContainer
+{
+	width: 500px; 
+	height: 100%;
+	background-color: #303030;	
+}
+
+.photoContainer
+{
+	border-right: #262626 thin solid;
+	border-top: #262626 thin solid;
+	vertical-align: middle;
+	border-left: #262626 thin solid;
+	border-bottom: #262626 thin solid;
+	text-align: center;
+	background-color: white;
+	height: 400px;
+}
+
+.slidesNav
+{
+	border-right: #262626 thin solid;
+	border-top: #262626 thin solid;
+	vertical-align: middle;
+	border-left: #262626 thin solid;
+	border-bottom: #262626 thin solid;
+	text-align: center;
+	background-color: #121212;
+	height: 50px;
+}
+
+
+.collapsePanel 
+{
+	overflow:hidden;
+}
+
+.collapsePanelHeader
+{
+	width:500px;
+	height:24px;
+	background-image: url(images/header.gif);
+	background-repeat:repeat-x;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.photoSettings
+{
+	border-right: #262626 thin solid;
+	border-top: #262626 thin solid;
+	border-left: #262626 thin solid;
+	border-bottom: #262626 thin solid;
+	background-color: #cccccc;	
+	color: black;	
+}
+
+.smallFont
+{
+	font-size: 8pt;
+	font-family: Tahoma, Arial;
+}
